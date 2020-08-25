@@ -11,7 +11,7 @@ export default function AddProductComponent({navigation}){
     return (
         <Formik
         initialValues={{ name: '',price:'',rating:'',stock:'',category:'',image:'',description:'' }} onSubmit={values => 
-            axios.post('http://localhost:3000/addproduct', values)
+            axios.post('http://localhost:3000/allproducts', values)
             .then(response=>{
                 console.log(response);
                 navigation.push('Home');

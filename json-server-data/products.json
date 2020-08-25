@@ -69,6 +69,16 @@
       "image": "https://images.indianexpress.com/2019/06/oppo-reno-10x-use-1.jpg",
       "description": "sasa",
       "id": 7
+    },
+    {
+      "name": "Groceries",
+      "price": "12",
+      "rating": "10",
+      "stock": "123",
+      "category": "Groceries",
+      "image": "https://itk-assets.nyc3.digitaloceanspaces.com/2020/03/grocery-delivery-services.jpg",
+      "description": "Fresh",
+      "id": 8
     }
   ]
 }
